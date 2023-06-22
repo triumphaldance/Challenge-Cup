@@ -1,0 +1,36 @@
+﻿
+.know_nav{width: 200px;height: 325px;background: #fff;}
+.profile{width: 768px;background: #fff;padding: 0px 26px 50px 26px;}
+.know_navtitle{height: 46px;background: #f9f9f9;border-bottom: 1px solid #e1e1e1;line-height: 46px;}
+.know_nav ul li a{height: 42px;width: 100%;line-height: 42px;display: block;padding-left: 25px;}
+.know_nav ul li a:hover{background: url(../images/knownavhover.png) no-repeat;}
+.know_navsure{background: url(../images/knownavhover.png) no-repeat;color: #3a7bff;}
+.profile_title{height: 46px;line-height: 46px;}
+.mar{margin: 24px 3px;display: block;}
+.mar2{margin: 24px 0;display: block;}
+.mt32{margin-top: 32px;}
+.wid510{width: 510px;display: block;margin-top: 36px;}
+.mt10{margin-top: 10px;}
+.profile span{line-height: 22px;}
+.foot{height: 54px;width: 100%;text-align: center;background: #f6f6f6;border-bottom: 1px solid #e1e1e1;border-top: 1px solid #e1e1e1;font-size: 12px;color: #8b8c8f;line-height: 20px;padding-top: 14px;}
+
+/*人在潭州页面 css*/
+.zp_title{ height:24px; line-height:24px; padding-top:35px;}
+.zp_bt{ display:inline-block; width:10px; height:10px; background:url(../images/zp_bt.jpg) no-repeat;}
+.zp_title span{ font-size:18px; padding-left:10px;}
+.tz_life{ padding-top:35px; padding-bottom:35px; border-bottom:1px solid #eeeeee;}
+.tz_life dt{ width:270px; height:186px; float:left;}
+.tz_life dt img{ width:247px; height:186px;}
+.tz_life dd{ width:498px; float:right;}
+.tz_life h3{ padding-left:8px; padding-right:8px; height:24px; line-height:24px; color:#fff; font-size:14px; float:left;}
+.tz_life p{ width:100%; clear:both; padding-top:10px; line-height:22px;}
+.salary_list{ padding:30px 0 30px 44px; width:340px; float:left;}
+.salary_list dt{ width:125px; float:left;}
+.salary_list dd{ width:215px; height:102px; float:right;}
+.salary_list h3{ height:30px; line-height:30px; font-size:16px;}
+.color_yellow{ color:#f5ac0f;}
+.train_title{ padding-top:20px; line-height:20px;}
+.entry_notice h3{ font-size:16px; line-height:60px;}
+.entry_notice p{ text-indent:28px; line-height:30px;}
+.entry_notice span{ display:block; line-height:30px; font-weight:bold;}
+.video_content{ border:1px solid #cccccc; background:#eee; height:390px; margin-top:30px;}

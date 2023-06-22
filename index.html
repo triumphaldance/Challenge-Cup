@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>主页</title>
+	<link href="css/index.css" rel="stylesheet" type="text/css">
+	<link href="css/global.css" rel="stylesheet" type="text/css">
+	<link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+	<script src="js/jquery-1.11.1.min.js"></script>
+</head>
+
+<body>
+	<style>
+		.span01 {
+			color: rgb(255, 255, 255);
+			font-size: 70px;
+			position: absolute;
+			top: 60%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			z-index: 999;
+		}
+
+
+
+		.page {
+
+			border: 1px solid rgb(255, 255, 255);
+			margin: 20px 0;
+		}
+
+		.list-item {
+			width: 22%;
+			margin-top: 20px;
+		}
+
+		.list-item:hover {
+			box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.4);
+		}
+	</style>
+	<!--头部-->
+	<div class="site_head">
+		<div class="head_cont wth1200">
+			<a href="index.html"><img src="images/logo.png" class="fl" style="height: 50px;margin-top: 13px;"></a>
+			<ul class="head_nav fr">
+
+				<li><a href="index.html" class="navon">主页</a></li>
+
+				<li><a href="views/course.html">学研项目</a></li>
+
+				<li><a href="views/tour.html">旅游服务</a></li>
+
+				<li><a href="views/specialty.html">特产商铺</a></li>
+
+				<li><a href="views/cooperate.html">品牌合作</a></li>
+
+				<li><a href="views/login.html">登录</a></li>
+
+			</ul>
+		</div>
+	</div>
+	<!--内容-->
+	<div class="banner">
+		<div class="culture_banner_box">
+			<div class="wth1200 culture_banner relative" style="text-align: center;margin: auto;">
+				<p class="span01">怀柔板栗</p>
+			</div>
+		</div>
+		<ul class="banner_img" id="banner_img">
+			<li>
+				<div class="banner_back"
+					style="background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(pictures/轮播图1.jpg) no-repeat center;background-size: cover;">
+				</div>
+			</li>
+			<li>
+				<div class="banner_back"
+					style="background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(pictures/轮播图2.jpg) no-repeat center;background-size: cover;">
+				</div>
+			</li>
+			<li>
+				<div class="banner_back"
+					style="background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(pictures/轮播图3.jpg) no-repeat center;background-size: cover;">
+				</div>
+			</li>
+			<li>
+				<div class="banner_back"
+					style="background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(pictures/轮播图4.jpg) no-repeat center;background-size: cover;">
+				</div>
+			</li>
+		</ul>
+		<ul class="banner_dian" id="banner_dian">
+			<li class="slet"></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		<a href="javascript:void(0)" id="ban_left"><i class="icon ban_left"></i></a>
+		<a href="javascript:void(0)" id="ban_right"><i class="icon ban_right"></i></a>
+	</div>
+
+	<div class="business">
+		<div class="wth1200 color_black center business_title">
+			<span>更多</span><br>More<br>
+			<i class="icon business_tb"></i>
+		</div>
+	</div>
+
+	<div class="pagemarg">
+		<div class="wth1200">
+			<div class="index_title">
+				<b class="fs18">关于本站</b>
+				<em></em>
+			</div>
+			<div class="container1" style="margin: 30px 20px;">
+				<div class="slideshow" id="slideshow-container">
+					<img class="slide" src="pictures/轮播图1.jpg" alt="Slide 1">
+					<img class="slide" src="pictures/轮播图2.jpg" alt="Slide 2">
+					<img class="slide" src="pictures/轮播图3.jpg" alt="Slide 3">
+				</div>
+				<div class="content">
+					<div class="index_title">
+						<span></span>
+						<b class="fs18">网站介绍</b>
+
+					</div>
+					<P>本站的介绍</P>
+					<p>新闻资讯:</p>
+					<p>学研项目:</p>
+					<p>民俗服务:</p>
+					<p>特产商铺:</p>
+					<p>品牌合作:</p>
+					<br>
+					<p>板栗原产我国，是我国食用最早的著名坚果之一，主要分布在我国江苏、浙江、安徽、湖北、湖南、河南南部。板栗虽属坚果，但又称坚果中的鲜果，因营养丰富，水分高，所以生命活动力强烈，保管起来有四怕：怕冻、怕热、怕干和怕水。如保管不当极易引起失水、发芽和腐烂变质。
+					</p>
+					<br>
+					<p>商务合作:</p>
+					<p>QQ：xxxxxxxx，微信:XXXXXXXXXXXX</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="pagemarg">
+		<div class="wth1200">
+			<div class="index_title">
+				<b class="fs18">热门内容</b>
+				<em></em>
+			</div>
+			<div class="container-fluid" style="background-color: aquamarine; "></div>
+			<div style="display: flex;justify-content: space-around;">
+				<img src="pictures/内容 (1).png" class="list-item">
+				<img src="pictures/内容 (2).png" class="list-item">
+				<img src="pictures/内容 (3).png" class="list-item">
+				<img src="pictures/内容 (4).png" class="list-item">
+			</div>
+		</div>
+		<div class="to_more">
+			<a href="" class="color_yellow transition">了解更多</a>
+		</div>
+	</div>
+
+	<div class="pagemarg">
+		<div class="wth1200">
+			<div class="index_title">
+				<b class="fs18">新闻资讯</b>
+				<em></em>
+			</div>
+			<div class="container-fluid" style="background-color: aquamarine; "></div>
+			<div style="margin: 30px 20px;">
+				<ul class="nav">
+					<li id="li01" class="first lis" style="border-bottom:  #293240  4px  solid;color:#293240;">政策动向</li>
+					<li id="li02" class="second lis" style="border-bottom: #293240 0px solid;color:#7F7F7F;">产业简讯</li>
+					<li id="li03" class="three lis" style="border-bottom: #293240 0px solid;color:#7F7F7F;">社会新闻</li>
+				</ul>
+				<!-- 使用display属性 -->
+				<div id="page01" class=" page" style="display:block">
+					<div style="display: flex;justify-content: space-between;">
+						<span>2023年 xx月 xx日 政策动向简讯</span>
+						<span style="color:#7F7F7F;">回到今日</span>
+					</div>
+					<div style="border: 1px #293240 solid;">
+						<span>2023/xx/xx</span>
+					</div>
+					<br>
+					<!--帖子-->
+					<a href="views/content.html">
+						<div style="border-bottom: #BFBFBF 2px solid;border-top: #BFBFBF 2px solid; margin-top: -4px;">
+							<div style="display: flex;justify-content: space-between;padding: 0px 5px;">
+								<span
+									style="align-items: center;display: flex;font-size: 23px;color: black;font-weight:bold">中共中央国务院印发《数字中国建设整体布局规划》</span>
+								<img src="../images/党委.png" style="color: #293240;">
+							</div>
+							<div style="display: flex;justify-content: space-between; padding: 10px 5px;color:#7F7F7F;">
+								<span>近日，中共中央、国务院印发了《数字中国建设整体布局规划》……</span>
+								<span>浏览量：XXXX</span>
+							</div>
+						</div>
+					</a>
+					<!--帖子-->
+					<a href="">
+						<div style="border-bottom: #BFBFBF 2px solid;border-top: #BFBFBF 2px solid; margin-top: -2px;">
+							<div style="display: flex;justify-content: space-between;padding: 0px 5px;">
+								<span
+									style="align-items: center;display: flex;font-size: 23px;color: black;font-weight:bold">热评丨和春天一同到来，“一号文件”强调这五“强”</span>
+								<img src="../images/党委.png" style="color: #293240;">
+							</div>
+							<div style="display: flex;justify-content: space-between; padding: 10px 5px;color:#7F7F7F;">
+								<span>《新春伊始，“一号文件”和春天一同如约而至。》</span>
+								<span>浏览量：XXXX</span>
+							</div>
+						</div>
+					</a>
+				</div>
+
+
+
+				<!--page2-->
+				<div id="page02" class=" page" style="display:none">
+					<div style="display: flex;justify-content: space-between;">
+						<span>2023年 xx月 xx日 产业简讯</span>
+						<span style="color:#7F7F7F;">回到今日</span>
+					</div>
+					<div style="border: 1px #293240 solid;">
+						<span>2023/xx/xx</span>
+					</div>
+					<br>
+					<!--帖子-->
+					<a href="">
+						<div style="border-bottom: #BFBFBF 2px solid;border-top: #BFBFBF 2px solid; margin-top: -4px;">
+							<div style="display: flex;justify-content: space-between;padding: 0px 5px;">
+								<span
+									style="align-items: center;display: flex;font-size: 23px;color: black;font-weight:bold">板栗交易与对外合作</span>
+								<img src="../images/党委.png" style="color: #293240;">
+							</div>
+							<div style="display: flex;justify-content: space-between; padding: 10px 5px;color:#7F7F7F;">
+								<span>四渡河村多次面向村民与大学生等……</span>
+								<span>浏览量：XXXX</span>
+							</div>
+						</div>
+					</a>
+					<!--帖子-->
+					<a href="">
+						<div style="border-bottom: #BFBFBF 2px solid;border-top: #BFBFBF 2px solid; margin-top: -2px;">
+							<div style="display: flex;justify-content: space-between;padding: 0px 5px;">
+								<span
+									style="align-items: center;display: flex;font-size: 23px;color: black;font-weight:bold">板栗产业品牌建设</span>
+								<img src="../images/党委.png" style="color: #293240;">
+							</div>
+							<div style="display: flex;justify-content: space-between; padding: 10px 5px;color:#7F7F7F;">
+								<span>针对当地板栗产业深度发展难题，四……</span>
+								<span>浏览量：XXXX</span>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<!--page3-->
+				<div id="page03" class=" page" style="display:none">
+					<div style="display: flex;justify-content: space-between;">
+						<span>2023年 xx月 xx日 社会新闻</span>
+						<span style="color:#7F7F7F;">回到今日</span>
+					</div>
+					<div style="border: 1px #293240 solid;">
+						<span>2023/xx/xx</span>
+					</div>
+					<br>
+					<!--帖子-->
+					<a href="">
+						<div style="border-bottom: #BFBFBF 2px solid;border-top: #BFBFBF 2px solid; margin-top: -4px;">
+							<div style="display: flex;justify-content: space-between;padding: 0px 5px;">
+								<span
+									style="align-items: center;display: flex;font-size: 23px;color: black;font-weight:bold">四渡河村特色课堂</span>
+								<img src="../images/党委.png" style="color: #293240;">
+							</div>
+							<div style="display: flex;justify-content: space-between; padding: 10px 5px;color:#7F7F7F;">
+								<span>四渡河村多次面向村民与大学生等……</span>
+								<span>浏览量：XXXX</span>
+							</div>
+						</div>
+					</a>
+					<!--帖子-->
+					<a href="">
+						<div style="border-bottom: #BFBFBF 2px solid;border-top: #BFBFBF 2px solid; margin-top: -2px;">
+							<div style="display: flex;justify-content: space-between;padding: 0px 5px;">
+								<span
+									style="align-items: center;display: flex;font-size: 23px;color: black;font-weight:bold">四渡河村民宿行业发展现状</span>
+								<img src="../images/党委.png" style="color: #293240;">
+							</div>
+							<div style="display: flex;justify-content: space-between; padding: 10px 5px;color:#7F7F7F;">
+								<span>伴随板栗产业发展带来的农村旅游热……</span>
+								<span>浏览量：XXXX</span>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="to_more">
+			<a href="" class="color_yellow transition">了解更多</a>
+		</div>
+	</div>
+
+
+
+	<!--底部-->
+
+	<div style="height:240px;background-color: #293240;border: #293240 1px solid;">
+		<div style="margin: 30px 40px;">
+			<span style="color:#fff;font-size: large;">“美栗”四渡河乡村振兴数字平台</span>
+		</div>
+		<div style="margin: 0px 100px;display: flex; justify-content: center;">
+			<div style="display:inline-block;width: 33%;color: #fff; margin-left: 40px;">
+				<span style="color: #fff;font-size: large; padding: 15px 0px;">制作机构</span>
+				<hr style="background-color:#293240;border:none">
+				<p style="color:#7F7F7F ;text-align:left;">北京化工大学“挑战杯”杨紫喻小组</p>
+			</div>
+			<div style="display:inline-block;width: 33%;color: #fff;margin-left:40px;">
+				<span style="color: #fff;font-size: large;">合作机构</span>
+				<hr style="background-color:#293240;border:none">
+				<p style="color:#7F7F7F ;text-align:left">新青蜂侠驻四渡河村报道组</p>
+			</div>
+			<div style="display:inline-block;width: 33%;color: #fff;margin-left:40px;">
+				<span style="color: #fff;font-size: large;">联系我们</span>
+				<hr style="background-color:#293240;border:none">
+				<p style="color:#7F7F7F ;text-align:left">负责人：杨紫喻</p>
+				<p style="color:#7F7F7F ;text-align:left">联系方式：XXXXXXXXXXX</p>
+				<p style="color:#7F7F7F ;text-align:left">地址：XXXXXXXXX</p>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script type="text/javascript">
+	function setBannerHeight(bannerBack) {
+		bannerBack.style.height = window.innerHeight - 75 + 'px';
+	}
+
+	$(function () {
+		$('#indexPage').addClass("selected");
+		var a = 0;
+		var cd = $("#banner_img li").length;
+
+		// 切换至上一页
+		$("#ban_left").click(function () {
+			a--;
+			if (a < 0) a = cd - 1;
+			$("#banner_dian li").eq(a).addClass("slet").siblings().removeClass("slet");
+			$("#banner_img li").hide().eq(a).css("opacity", "0").fadeTo(0, 1).siblings().removeClass("dongh");
+			setBannerHeight($("#banner_img li").eq(a).find(".banner_back")[0]); // 设置当前轮播图项的高度
+		});
+
+		// 切换至下一页
+		$("#ban_right").click(function () {
+			a++;
+			if (a >= cd) a = 0;
+			$("#banner_dian li").eq(a).addClass("slet").siblings().removeClass("slet");
+			$("#banner_img li").hide().eq(a).css("opacity", "0").fadeTo(0, 1).siblings().removeClass("dongh");
+			setBannerHeight($("#banner_img li").eq(a).find(".banner_back")[0]); // 设置当前轮播图项的高度
+		});
+
+		// 自动切换
+		var time;
+		start();
+		function start() {
+			time = setInterval(function () {
+				a++;
+				if (a > cd - 1) a = 0;
+				$("#banner_dian li").eq(a).addClass("slet").siblings().removeClass("slet");
+				$("#banner_img li").hide().eq(a).css("opacity", "0").fadeTo(0, 1).siblings().removeClass("dongh");
+				setBannerHeight($("#banner_img li").eq(a).find(".banner_back")[0]); // 设置当前轮播图项的高度
+			}, 4000);
+		}
+
+		// 鼠标浮动切换
+		$("#banner_dian li").hover(function () {
+			if (time) clearInterval(time);
+			a = $(this).index();
+			$("#banner_img li").hide().eq(a).css("opacity", "0").fadeTo(0, 1).siblings().removeClass("dongh");
+			$(this).addClass("slet").siblings().removeClass("slet");
+			setBannerHeight($("#banner_img li").eq(a).find(".banner_back")[0]); // 设置当前轮播图项的高度
+		}, function () {
+			start();
+		});
+
+		var settime;
+		$(".news_d").hover(function () {
+			clearInterval(settime);
+		}, function () {
+			settime = setInterval(function () {
+				var $first = $(".news_d div:first");
+				var height = $first.find("a:first").height();
+				$first.animate({ "marginTop": -height + "px" }, 600, function () {
+					$first.css({ marginTop: 0 }).find("a:first").appendTo($first);
+				});
+			}, 2000);
+		}).trigger("mouseleave");
+	});
+
+	// 在页面加载完成时，设置初始轮播图项的高度
+	window.addEventListener('load', function () {
+		var initialBannerBack = $("#banner_img li:first").find(".banner_back")[0];
+		setBannerHeight(initialBannerBack);
+	});
+
+	// 在窗口大小变化时，重新设置当前轮播图项的高度
+	window.addEventListener('resize', function () {
+		var currentBannerBack = $("#banner_img li").eq(a).find(".banner_back")[0];
+		setBannerHeight(currentBannerBack);
+	});
+
+</script>
+<script>
+	// Get all the slide elements
+	const slides = document.querySelectorAll('.slide');
+	let currentSlide = 0;
+
+	// Function to display the current slide
+	function showSlide(index) {
+		// Hide all slides
+		slides.forEach((slide) => {
+			slide.style.display = 'none';
+		});
+
+		// Display the current slide
+		slides[index].style.display = 'block';
+		adjustHeight(); // 调整高度
+	}
+
+	// Function to change to the next slide
+	function nextSlide() {
+		currentSlide = (currentSlide + 1) % slides.length;
+		showSlide(currentSlide);
+	}
+
+	// Set initial slide
+	showSlide(currentSlide);
+
+	// Automatically switch to the next slide every 3 seconds
+	const intervalId = setInterval(nextSlide, 3000);
+
+	// Function to adjust the height of slideshow container and content container
+	function adjustHeight() {
+		const slideshowContainer = document.querySelector('.slideshow');
+		const contentContainer = document.querySelector('.content');
+
+		const slideshowHeight = slideshowContainer.offsetHeight;
+		const contentHeight = contentContainer.offsetHeight;
+
+		if (slideshowHeight > contentHeight) {
+			contentContainer.style.height = slideshowHeight + 'px';
+		} else {
+			slideshowContainer.style.height = contentHeight + 'px';
+		}
+	}
+
+	// Call adjustHeight initially and on window load
+	window.addEventListener('load', adjustHeight);
+
+	// Call adjustHeight on window resize
+	window.addEventListener('resize', adjustHeight);
+
+	// Call clearInterval to stop the interval when the page is being unloaded or navigated away
+	window.addEventListener('beforeunload', function () {
+		clearInterval(intervalId);
+	});
+
+</script>
+<script>
+	//使用排他思想
+	//获取导航栏按钮
+	let lis = document.querySelectorAll('li')
+	//获取三个要切换的盒子
+	let page01 = document.getElementById('page01')
+	let page02 = document.getElementById('page02')
+	let page03 = document.getElementById('page03')
+	//点击导航栏，改变Iframe的src属性，实现页面切换
+	for (let i = 0; i < lis.length; i++) {
+		//绑定点击事件
+		lis[i].onclick = function (event) {
+			if (event.target.classList.contains('first')) {
+				changPage()
+				changPage1()
+				page01.style.display = ' block'
+				li01.style.borderBottom = '  #293240  4px  solid'
+				li01.style.color = ' #293240'
+			} else if (event.target.classList.contains('second')) {
+				changPage()
+				changPage1()
+				page02.style.display = ' block'
+				li02.style.borderBottom = '  #293240 4px solid'
+				li02.style.color = ' #293240'
+			} else {
+				changPage()
+				changPage1()
+				page03.style.display = ' block'
+				li03.style.borderBottom = ' #293240 4px  solid'
+				li03.style.color = ' #293240'
+			}
+		}
+
+	}
+	//封装一个排他思想的函数
+	function changPage() {
+		//获取所有page
+		document.querySelectorAll('.page').forEach(el => {
+			el.style.display = 'none'
+		})
+	}
+	function changPage1() {
+		//获取所有lis
+		document.querySelectorAll('.lis').forEach(el => {
+			el.style.borderBottom = ' #293240 0px solid'
+			el.style.color = '#7F7F7F'
+		})
+	}
+</script>
+
+</html>

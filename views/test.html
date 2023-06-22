@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>待添加</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+		}
+		.container {
+			margin: 0 auto;
+			max-width: 800px;
+			padding: 20px;
+		}
+		.header {
+			background-color: #008CBA;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+			font-size: 24px;
+			margin-bottom: 20px;
+		}
+		.info {
+			margin-bottom: 20px;
+		}
+		.info h2 {
+			margin-bottom: 10px;
+		}
+		.info p {
+			line-height: 1.5;
+		}
+		.btn {
+			background-color: #4CAF50;
+			border: none;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin-top: 20px;
+			cursor: pointer;
+			border-radius: 5px;
+		}
+		.btn:hover {
+			background-color: #3e8e41;
+		}
+		.form-popup {
+			display: none;
+			position: fixed;
+			bottom: 0;
+			right: 15px;
+			border: 1px solid #ccc;
+			background-color: #f1f1f1;
+			width: 300px;
+			padding: 10px;
+			z-index: 1;
+			border-radius: 5px;
+		}
+		.form-container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.form-container input[type=text] {
+			padding: 10px;
+			margin: 5px 0 10px 0;
+			border: none;
+			border-radius: 5px;
+			width: 100%;
+			box-sizing: border-box;
+			font-size: 16px;
+		}
+		.form-container textarea {
+			padding: 10px;
+			margin: 5px 0 10px 0;
+			border: none;
+			border-radius: 5px;
+			width: 100%;
+			height: 80px;
+			box-sizing: border-box;
+			font-size: 16px;
+			resize: none;
+		}
+		.form-container .btn {
+			background-color: #4CAF50;
+			border: none;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin-top: 10px;
+			cursor: pointer;
+			border-radius: 5px;
+		}
+		.form-container .btn:hover {
+			background-color: #3e8e41;
+		}
+		.form-container .close {
+			position: absolute;
+			top: 5px;
+			right: 10px;
+			color: #000;
+			font-size: 24px;
+			font-weight: bold;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<h1>活动标题</h1>
+		</header>
+        <section class="info">
+			<h2>活动周期</h2>
+			<p>从 2023年5月1日 至 2023年5月5日</p>
+		</section>
+		<section class="info">
+			<h2>活动简介</h2>
+			<p>这里是活动的简介。你可以在这里介绍活动的主要内容，吸引更多的用户参与。</p>
+		</section>
+		<form>
+		
+			<button type="button" class="btn" id="registerBtn">报名</button>
+		</form>
+	</div>
+
+	<!-- 弹窗 -->
+	<div class="form-popup" id="myForm">
+		<form class="form-container">
+			<h2>报名表单</h2>
+			<label for="name"><b>姓名：</b></label>
+			<input type="text" placeholder="请输入您的姓名" name="name" required>
+
+			<label for="phone"><b>电话：</b></label>
+			<input type="text" placeholder="请输入您的电话" name="phone" required>
+
+			<label for="remark"><b>备注：</b></label>
+			<textarea placeholder="请输入您的备注" name="remark"></textarea>
+
+			<button type="submit" class="btn">提交</button>
+			<button type="button" class="btn close" id="closeBtn">&times;</button>
+		</form>
+	</div>
+
+	<script>
+		// 获取弹窗元素
+		var popup = document.getElementById("myForm");
+
+		// 获取打开弹窗的按钮
+		var registerBtn = document.getElementById("registerBtn");
+
+		// 获取关闭弹窗的按钮
+		var closeBtn = document.getElementById("closeBtn");
+
+		// 当用户点击报名按钮时，打开弹窗
+		registerBtn.onclick = function() {
+			popup.style.display = "block";
+		}
+
+		// 当用户点击关闭按钮时，关闭弹窗
+		closeBtn.onclick = function() {
+			popup.style.display = "none";
+		}
+
+		// 当用户点击弹窗外部时，关闭弹窗
+		window.onclick = function(event) {
+			if (event.target == popup) {
+				popup.style.display = "none";
+			}
+		}
+	</script>
+
+</body>
+</html>
